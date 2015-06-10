@@ -1,0 +1,23 @@
+<tool id="hmmbuild_id" name="Hmmbuild" version="1.0.0">
+	
+    <description>Makes a HMM from reference alignement</description>
+    
+     <!-- hmmbuild refseqaln.hmm refseqaln.sth -->
+	<command>
+		/home/anaisb/software/hmmer/hmmer/src/hmmbuild $output $input
+	</command>
+	
+	<inputs>
+		<param name="input" type="data" format="stockholm" label="Reference alignment in stockholm format"/>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="hmm" label="Hmmbuild output file : aln.hmm"/>
+	</outputs>
+
+	<help>
+		Hmmbuild makes a HMM profile from a reference alignement (stockholm format). 
+		Creates a .hmm alignment file.
+	</help>
+
+</tool>
