@@ -1,0 +1,32 @@
+<tool id="infofile_check_id" name="Info file check" version="1.0.0">
+
+    <description>Checks the content of the tree info/stat file for pplacer</description>
+    
+	<command interpreter="python">
+		./infofile_check_wrapper.py $input $output
+	</command>
+	
+	<inputs>
+		<param name="input"		 type="data" 	label="Sequence file to convert"/>
+		<param name="input_format"		 type="select" 	label="Select format of the file to convert">
+			<option value="phylip">		phylip		</option>
+			<option value="stockholm">	stockholm	</option>
+			<option value="fasta">		fasta		</option>
+		</param>
+		<param name="output_format"		 type="select" 	label="Select format to convert into">
+			<option value="phylip">		phylip		</option>
+			<option value="stockholm">	stockholm	</option>
+			<option value="fasta">		fasta		</option>
+		</param>
+	</inputs>
+	
+	<outputs>
+		<data name="output" label="Converted sequence file"/>
+	</outputs>
+
+	<help>
+		Parses the tree info/stat file, and removes the line of the new RAxML version which is making pplacer bug.
+	</help>
+
+</tool>
+
