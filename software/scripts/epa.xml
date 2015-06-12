@@ -1,0 +1,51 @@
+<tool id="epa_id" name="EPA" version="1.0.0">
+	
+    <description>Makes a placement using RAxML maximum likelihood Evolutionary Placement Algorithm</description>
+         
+	<command interpreter="python">
+		./epa_wrapper.py $inputcombo $inputtree $inputmodel $outputjplace $outputclassif $outputclassifLW
+	</command>
+	
+	<inputs>
+		<param name="inputcombo" type="data" format="txt" label="Aligned reads to reference MSA (HMM) in phylip format"/>
+		<param name="inputtree" type="data" format="txt" label="Reference tree made with reference sequences (RAxML or PhyMl)"/>		
+		<conditional name="datatype_condition">
+			<param type="select" name="type" label="Data type">
+				<option value="nt">		Nucleic acids	</option>
+				<option value="aa">		Amino acids		</option>
+			</param>
+			<when value="nt">
+				<param name="inputmodel" type="select" label="Evolution model">
+					<option value="GTRCAT">						GTRCAT		</option>
+					<option value="GTRGAMMA" selected="true">	GTRGAMMA	</option>
+				</param>
+			</when>
+			<when value="aa">
+				<param name="inputmodel" type="select" label="Evolution + Substitution model">
+					<option value="PROTGAMMALG">					PROTGAMMALG		</option>
+					<option value="PROTGAMMAWAG" selected="true">	PROTGAMMAWAG	</option>
+					<option value="PROTGAMMAJTT">					PROTGAMMAJTT	</option>					
+					<option value="PROTCATLG">						PROTCATLG		</option>
+					<option value="PROTCATWAG">						PROTCATWAG		</option>
+					<option value="PROTCATJTT">						PROTCATJTT		</option>					
+				</param>
+			</when>			
+		</conditional>
+	</inputs>
+	
+	<outputs>
+		<data name="outputjplace" format="jplace" label="EPA placement result .jplace"/>
+		<data name="outputclassif" format="txt" label="EPA placement classification file"/>
+		<data name="outputclassifLW" format="txt" label="EPA placement classification with LW"/>
+
+	</outputs>
+
+	<help>
+		Placement of reads on a reference tree. 
+		Reads must be prealigned to a reference alignment with HMM, and the file in phylip format. 
+		EPA needs to be stated an evolutionary model for placement.
+	</help>
+
+</tool>
+
+

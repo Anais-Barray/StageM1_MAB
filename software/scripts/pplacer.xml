@@ -1,0 +1,26 @@
+<tool id="pplacer_id" name="Pplacer" version="1.0.3">
+	
+    <description>Makes a placement using pplacer maximum likelihood algorithm</description>
+         
+	<command interpreter="python">
+		./pplacer_wrapper.py $inputtree $inputstat $inputcombo $output
+	</command>
+	
+	<inputs>
+		<param name="inputtree" type="data" format="txt" label="Reference tree made with reference sequences (RAxML or Phyml)"/>
+		<param name="inputstat" type="data" format="txt" label="Tree info/stat file"/>
+		<param name="inputcombo" type="data" format="stockholm" label="Aligned reads to reference MSA (HMM) in stokholm format"/>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="jplace" label="pplacer placement result .jplace"/>
+	</outputs>
+
+	<help>
+		Placement of reads on a reference tree. 
+		Reads must be prealigned to a reference alignment with HMM, and the file in stockholm format. 
+		Pplacer needs a info/stat file to know the evolutionary model for placement. 
+	</help>
+
+</tool>
+

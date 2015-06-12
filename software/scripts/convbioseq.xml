@@ -1,4 +1,4 @@
-<tool id="convbioseq_id" name="Convbioseq" version="1.0.0">
+<tool id="convbioseq_id" name="Convbioseq" version="1.1.1">
 
     <description>Converts sequence file format into another format</description>
     
@@ -7,13 +7,13 @@
 	</command>
 	
 	<inputs>
-		<param name="input"		 type="data" 	label="Sequence file to convert"/>
-		<param name="input_format"		 type="select" 	label="Select format of the file to convert">
+		<param name="input"	type="data" format="txt" label="Sequence file to convert"/>
+		<param name="input_format" type="select" label="Select format of the file to convert">
 			<option value="phylip">		phylip		</option>
 			<option value="stockholm">	stockholm	</option>
 			<option value="fasta">		fasta		</option>
 		</param>
-		<param name="output_format"		 type="select" 	label="Select format to convert into">
+		<param name="output_format" type="select" label="Select format to convert into">
 			<option value="phylip">		phylip		</option>
 			<option value="stockholm">	stockholm	</option>
 			<option value="fasta">		fasta		</option>
@@ -21,7 +21,7 @@
 	</inputs>
 	
 	<outputs>
-		<data name="output" label="Converted sequence file"/>
+			<data name="output" format="txt" label="Converted sequence file"/>
 	</outputs>
 
 	<help>

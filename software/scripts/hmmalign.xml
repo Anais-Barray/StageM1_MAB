@@ -1,4 +1,4 @@
-<tool id="hmmalign_id" name="Hmmalign" version="1.0.0">
+<tool id="hmmalign_id" name="Hmmalign" version="1.0.5">
 
     <description>Aligns reads on a HMM profile</description>
     
@@ -8,9 +8,9 @@
 	</command>
 	
 	<inputs>
-		<param name="input1" type="data" format="stockholm" label="Reference alignment in stockholm format"/>
+		<param name="input1" type="data" format="txt" label="Reference alignment in stockholm format"/>
 		<param name="input2" type="data" format="hmm" label="Hmm profile"/>
-		<param name="input3" type="data" format="fasta" label="Queries file (reads) in fasta format"/>
+		<param name="input3" type="data" format="txt" label="Queries file (reads) in fasta format"/>
 	</inputs>
 	
 	<outputs>

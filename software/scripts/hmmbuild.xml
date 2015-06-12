@@ -1,4 +1,4 @@
-<tool id="hmmbuild_id" name="Hmmbuild" version="1.0.0">
+<tool id="hmmbuild_id" name="Hmmbuild" version="1.0.4">
 	
     <description>Makes a HMM from reference alignement</description>
     
@@ -8,11 +8,11 @@
 	</command>
 	
 	<inputs>
-		<param name="input" type="data" format="stockholm" label="Reference alignment in stockholm format"/>
+		<param name="input" type="data" format="txt" label="Reference alignment in stockholm format"/>
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="hmm" label="Hmmbuild output file : aln.hmm"/>
+		<data name="output" format="hmm" label="Hmmbuild output file : refalignment.hmm"/>
 	</outputs>
 
 	<help>

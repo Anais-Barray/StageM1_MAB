@@ -30,7 +30,7 @@ if __name__ == "__main__":
 		
 	#unix cmd : convbioseq -i iformat oformat ifile
 
-	#nom que doit avoir le fichier pour etre reconnu par convbioseq
+	#fichier temporaire avec le nom correct pour etre reconnu par convbioseq
 	itemp = ""+os.path.splitext(ifile)[0]+iext 
 	
 	#copie pour pas modifier le fichier d'origine
@@ -42,6 +42,9 @@ if __name__ == "__main__":
 	#appel de convbioseq pour convertir l'input itemp1 (format iformat) en format oformat
 	subprocess.call(["convbioseq", "-i", iformat, oformat, itemp]) 
 	
-	#fichier converti renomme en fichier de sorti pour que galaxy le recupere
+	#supprime le fichier temporaire devenu obsolete
+	subprocess.call(["rm", itemp]) 
+
+	#fichier converti renomme en fichier de sortie pour que galaxy le recupere
 	shutil.move(oconv,ofile) 
 
