@@ -9,9 +9,9 @@ if __name__ == "__main__":
 	ojplace = sys.argv[4]
 	oclassif = sys.argv[5]
 	oclassifLW = sys.argv[6]
-
+	
 	#nom des output
-	oname = "" + os.path.splitext(icombo)[0] + "_" + imodel + "_EPA_result"
+	oname = "%s_%s_%s" %  (os.path.splitext(os.path.split(icombo)[1])[0], imodel, "EPAresults" )
 	
 	#fichier temporaire avec l'extension correcte pour etre reconnu par EPA
 	icombotemp = ""+os.path.splitext(icombo)[0]+".phy" 

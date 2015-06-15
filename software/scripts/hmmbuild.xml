@@ -1,4 +1,4 @@
-<tool id="hmmbuild_id" name="Hmmbuild" version="1.0.4">
+<tool id="hmmbuild_id" name="Hmmbuild" version="1.1.1">
 	
     <description>Makes a HMM from reference alignement</description>
     
@@ -8,16 +8,34 @@
 	</command>
 	
 	<inputs>
-		<param name="input" type="data" format="txt" label="Reference alignment in stockholm format"/>
+		<param name="input" type="data" format="txt" label="Reference alignment in stockholm format" help="You can convert your file format with the tool Convbioseq"/>
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="hmm" label="Hmmbuild output file : refalignment.hmm"/>
+		<data name="output" format="hmm3" label="Hmmbuild output file : refalignment.hmm"/>
 	</outputs>
 
 	<help>
-		Hmmbuild makes a HMM profile from a reference alignement (stockholm format). 
-		Creates a .hmm alignment file.
+
+===========
+ Overview:
+===========
+
+Hmmbuild makes a HMM profile from a reference alignement (stockholm format). 
+
+Creates a .hmm alignment file.
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the HMMER documentation : http://hmmer.janelia.org/
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
 	</help>
 
 </tool>

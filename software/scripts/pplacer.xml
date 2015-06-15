@@ -1,15 +1,15 @@
-<tool id="pplacer_id" name="Pplacer" version="1.0.3">
+<tool id="pplacer_id" name="Pplacer" version="1.1.3">
 	
     <description>Makes a placement using pplacer maximum likelihood algorithm</description>
-         
+    
 	<command interpreter="python">
 		./pplacer_wrapper.py $inputtree $inputstat $inputcombo $output
 	</command>
 	
 	<inputs>
-		<param name="inputtree" type="data" format="txt" label="Reference tree made with reference sequences (RAxML or Phyml)"/>
-		<param name="inputstat" type="data" format="txt" label="Tree info/stat file"/>
-		<param name="inputcombo" type="data" format="stockholm" label="Aligned reads to reference MSA (HMM) in stokholm format"/>
+		<param name="inputtree" type="data" format="txt" label="Reference tree" help="Tree made with RAxML or PhyMl using the reference sequences"/>
+		<param name="inputstat" type="data" format="txt" label="Tree info file" help="This file is generated when making a tree with RAxML or PhyMl. Make sure to check it first with the tool Info File Check"/>
+		<param name="inputcombo" type="data" format="stockholm" label="Aligned reads to reference MSA (HMM) in stockholm format" help="You can convert your file format with the tool Convbioseq"/>
 	</inputs>
 	
 	<outputs>
@@ -17,9 +17,29 @@
 	</outputs>
 
 	<help>
-		Placement of reads on a reference tree. 
-		Reads must be prealigned to a reference alignment with HMM, and the file in stockholm format. 
-		Pplacer needs a info/stat file to know the evolutionary model for placement. 
+
+
+===========
+ Overview:
+===========
+		
+Placement of reads on a reference tree using the pplacer algorithm.
+
+Reads must be prealigned to a reference alignment with HMM, and the file in stockholm format. 
+
+Pplacer needs an info/stat file to know the evolutionary model for placement. 
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the pplacer documentation : http://matsen.github.io/pplacer/
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
 	</help>
 
 </tool>
