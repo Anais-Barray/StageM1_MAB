@@ -1,4 +1,4 @@
-<tool id="infofile_check_id" name="Info file check" version="1.0.2">
+<tool id="infofile_check_id" name="Info file check" version="1.0.3">
 
     <description>Checks the content of the RAxML tree info file for pplacer</description>
     
@@ -11,7 +11,7 @@
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="txt" label="Info file checked"/>
+		<data name="output" format="txt" label="${input.name}checked"/>
 	</outputs>
 
 	<help>

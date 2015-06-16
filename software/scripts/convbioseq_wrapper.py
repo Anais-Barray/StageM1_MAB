@@ -7,7 +7,12 @@ if __name__ == "__main__":
 	ifile = sys.argv[1]
 	iformat = sys.argv[2]
 	oformat = sys.argv[3]
-	ofile = sys.argv[4]
+	
+	#Parcours les 3 output potentiels selon le format de sortie. Si galaxy les a filtre, ils sont tout de meme crees en "None"
+	for i in range(4, len(sys.argv)):
+		if sys.argv[i].strip() != "None":
+			ofile = sys.argv[i]
+
 
 	#besoin des extensions pour le renommage de fichier
 	iext=""

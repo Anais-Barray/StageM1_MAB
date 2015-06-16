@@ -1,4 +1,4 @@
-<tool id="epa_id" name="EPA" version="1.1.8">
+<tool id="epa_id" name="EPA" version="1.2.8">
 	
     <description>Makes a placement using RAxML maximum likelihood Evolutionary Placement Algorithm</description>
          
@@ -35,9 +35,9 @@
 	</inputs>
 	
 	<outputs>
-		<data name="outputjplace" format="jplace" label="EPA_placement_result .jplace"/>
-		<data name="outputclassif" format="txt" label="EPA_placement_classification file"/>
-		<data name="outputclassifLW" format="txt" label="EPA_placement_classification with LW"/>
+		<data name="outputjplace" format="jplace" label="${inputcombo.name}.jplace"/>
+		<data name="outputclassif" format="txt" label="${inputcombo.name}.classif.txt"/>
+		<data name="outputclassifLW" format="txt" label="${inputcombo.name}.classifLW.txt"/>
 
 	</outputs>
 

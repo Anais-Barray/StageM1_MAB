@@ -1,4 +1,4 @@
-<tool id="hmmalign_id" name="Hmmalign" version="1.2.5">
+<tool id="hmmalign_id" name="Hmmalign" version="1.2.6">
 
     <description>Aligns reads on a HMM profile</description>
     
@@ -14,7 +14,7 @@
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="stockholm" label="Hmmalign output file : combo.sth"/>
+		<data name="output" format="stockholm" label="combo_${input1.name}_${input3.name}.sth"/>
 	</outputs>
 
 	<help>
