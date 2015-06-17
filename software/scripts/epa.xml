@@ -35,9 +35,9 @@
 	</inputs>
 	
 	<outputs>
-		<data name="outputjplace" format="jplace" label="${inputcombo.name}.jplace"/>
-		<data name="outputclassif" format="txt" label="${inputcombo.name}.classif.txt"/>
-		<data name="outputclassifLW" format="txt" label="${inputcombo.name}.classifLW.txt"/>
+		<data name="outputjplace" format="jplace" label="EPA_results.jplace"/>
+		<data name="outputclassif" format="txt" label="EPA_results_classif.txt"/>
+		<data name="outputclassifLW" format="txt" label="EPA_results_classifLW.txt"/>
 
 	</outputs>
 

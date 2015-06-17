@@ -26,7 +26,7 @@
 	
 	<outputs>
 		
-		<data name="output" format="txt" label="${input.name}.phylip"/>
+		<data name="output" format="txt" label="${input.name} in ${output_format}"/>
 
 <!--
 		<data name="output1" format="phylip" label="${input.name}.phylip">

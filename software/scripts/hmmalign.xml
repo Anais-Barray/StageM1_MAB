@@ -10,11 +10,11 @@
 	<inputs>
 		<param name="input1" type="data" format="txt" label="Reference alignment in stockholm format" help="You can convert your file format with the tool Convbioseq" />
 		<param name="input2" type="data" format="hmm3" label="Hmm profile" help="You can make an HMM profile with the tool Hmmbuild" />
-		<param name="input3" type="data" format="txt" label="Queries file (reads) in fasta format"/>
+		<param name="input3" type="data" format="txt" label="Reads file (queries)"/>
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="stockholm" label="combo_${input1.name}_${input3.name}.sth"/>
+		<data name="output" format="stockholm" label="combo.sth of : ${input1.name} and ${input3.name}"/>
 	</outputs>
 
 	<help>

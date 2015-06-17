@@ -22,13 +22,13 @@ if __name__ == "__main__":
 	# unix : raxml -f v -s test1combo.phy -t test1RAxML_bestTree.ARBRETEST1.1 -m PROTGAMMAWAG -n test1Epa
 	subprocess.call(["/home/anaisb/software/epa/standard-RAxML-master/raxmlHPC-SSE3", "-f", "v", "-s", icombotemp, "-t", itree, "-m", imodel, "-n", oname]) 
 	
-	#supprime le fichier temporaire devenu obsolete
-	subprocess.call(["rm", icombotemp]) 
-	
 	#fichiers crees renommes en fichier de sortie pour que galaxy le recupere
 	shutil.move("RAxML_portableTree." + oname + ".jplace", ojplace) 	
 	shutil.move("RAxML_classification." + oname, oclassif)
 	shutil.move("RAxML_classificationLikelihoodWeights." + oname, oclassifLW) 	
-
+	
+	#supprime le fichier temporaire devenu obsolete
+	subprocess.call(["rm", icombotemp]) 
+	
 	#supprime les fichiers inutilises
 	subprocess.call(["rm", "RAxML_entropy."+oname, "RAxML_info."+oname, "RAxML_labelledTree."+oname, "RAxML_originalLabelledTree."+oname]) 

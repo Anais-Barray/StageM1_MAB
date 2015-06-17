@@ -1,0 +1,52 @@
+<tool id="sepp_id" name="SEPP" version="1.0.0">
+	
+    <description>Makes a placement using sepp maximum likelihood algorithm</description>
+    
+	<command interpreter="python">
+		./sepp_wrapper.py $inputtree $inputstat $inputmsa $inputread $model $output 2> error
+	</command>
+	
+	<inputs>
+		<param name="inputtree" type="data" format="txt" label="Reference tree" help="Tree made with RAxML or PhyMl using the reference sequences"/>
+		<param name="inputstat" type="data" format="txt" label="Tree info file" help="This file is generated when making a tree with RAxML or PhyMl. Make sure to check it first with the tool Info File Check"/>
+		<param name="inputmsa" type="data" format="txt" label="Multiple reference sequence alignement in fasta format" help="You can convert your file format with the Convbioseq tool"/>
+		<param name="inputread" type="data" format="txt" label="Reads file" help="Queries you want to place on the tree, fasta format"/>
+		<param name="model" type="select" label="Data type">
+			<option value="dna">		Nucleic acids			</option>
+			<option value="rna">		Ribonucleic acids		</option>
+			<option value="amino">		Amino acids				</option>
+		</param>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="json" label="SEPP_results.json"/>
+	</outputs>
+
+	<help>
+
+
+===========
+ Overview:
+===========
+		
+Placement of reads on a reference tree using the SEPP algorithm.
+
+Reference sequences must be prealigned and given in fasta format. 
+
+Trees can be done either with RAxML or PhyMl, make sure to get the info/stat file as well. SEPP needs it to know the evolutionary model for placement. 
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the pplacer documentation : http://www.cs.utexas.edu/users/phylo/software/sepp/submission/
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
+	</help>
+
+</tool>
+
