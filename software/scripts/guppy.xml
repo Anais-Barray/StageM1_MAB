@@ -7,7 +7,7 @@
 	</command>
 	
 	<inputs>
-		<param name="input" type="data" format="json" label="Phylogenetic placement file in JPLACE/JSON format" help="Output file from pplacer, EPA or SEPP tools"/>
+		<param name="input" type="data" format="json" label="Phylogenetic placement file in jplace/json format" help="Output file from pplacer, EPA or SEPP tools"/>
 	</inputs>
 	
 	<outputs>

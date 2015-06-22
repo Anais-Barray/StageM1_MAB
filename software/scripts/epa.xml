@@ -3,7 +3,7 @@
     <description>Makes a placement using RAxML maximum likelihood Evolutionary Placement Algorithm</description>
          
 	<command interpreter="python">
-		./epa_wrapper.py $inputcombo $inputtree $datatype_condition.model $outputjplace $outputclassif $outputclassifLW
+		./epa_wrapper.py $inputcombo $inputtree $datatype_condition.model $outputjplace $outputclassif $outputclassifLW $heuristic
 	</command>
 	
 	<inputs>
@@ -32,6 +32,11 @@
 				</param>
 			</when>			
 		</conditional>
+		
+		<param name="heuristic" type="select" label="Heuristic : best 10% branch length optimization instead of full" help="To be used for a faster analysis, especially for big trees">
+			<option value="yes">	Yes 	</option>
+			<option value="no">		No		</option>
+		</param>
 	</inputs>
 	
 	<outputs>

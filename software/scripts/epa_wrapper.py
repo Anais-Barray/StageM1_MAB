@@ -9,6 +9,7 @@ if __name__ == "__main__":
 	ojplace = sys.argv[4]
 	oclassif = sys.argv[5]
 	oclassifLW = sys.argv[6]
+	heuristic = sys.argv[7]
 	
 	#nom des output
 	oname = "%s_%s_%s" %  (os.path.splitext(os.path.split(icombo)[1])[0], imodel, "EPAresults" )
@@ -19,8 +20,11 @@ if __name__ == "__main__":
 	#copie pour pas modifier le fichier d'origine
 	subprocess.call(["cp", icombo, icombotemp]) 
 
-	# unix : raxml -f v -s test1combo.phy -t test1RAxML_bestTree.ARBRETEST1.1 -m PROTGAMMAWAG -n test1Epa
-	subprocess.call(["/home/anaisb/software/epa/standard-RAxML-master/raxmlHPC-SSE3", "-f", "v", "-s", icombotemp, "-t", itree, "-m", imodel, "-n", oname]) 
+	# unix : raxml -f v -s test1combo.phy -t test1RAxML_bestTree.ARBRETEST1.1 -m PROTGAMMAWAG -n test1Epa -G 0.1
+	if (heuristic=="yes"):
+		subprocess.call(["/home/anaisb/software/epa/standard-RAxML-master/raxmlHPC-SSE3", "-f", "v", "-s", icombotemp, "-t", itree, "-m", imodel, "-n", oname, "-G", "0.1"]) 
+	else:
+		subprocess.call(["/home/anaisb/software/epa/standard-RAxML-master/raxmlHPC-SSE3", "-f", "v", "-s", icombotemp, "-t", itree, "-m", imodel, "-n", oname]) 
 	
 	#fichiers crees renommes en fichier de sortie pour que galaxy le recupere
 	shutil.move("RAxML_portableTree." + oname + ".jplace", ojplace) 	
