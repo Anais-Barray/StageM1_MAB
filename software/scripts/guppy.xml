@@ -3,7 +3,7 @@
     <description>Analyses phylogenetic placement files</description>
     
 	<command interpreter="python">
-		./guppy_wrapper.py $input $output
+		./guppy_wrapper.py $input $output $outputxml
 	</command>
 	
 	<inputs>
@@ -11,7 +11,8 @@
 	</inputs>
 	
 	<outputs>
-		<data name="output" format="xml" label="Guppy_tog_XML_of_${input.name}"/>
+		<data name="output" format="txt" label="Guppy_tog_of_${input.name}"/>
+		<data name="outputxml" format="xml" label="Guppy_tog_XML_of_${input.name}"/>
 	</outputs>
 
 	<help>
