@@ -58,3 +58,8 @@ if __name__ == "__main__":
 			subprocess.call(["chmod","755","run_restrict.sh"])
 			subprocess.call(["sh", "run_restrict.sh"])
 	
+	f2 = open(outputname+"_output_restrictedTrees_placed","w")
+	pattern = "_"+str([0-9])
+	lines = f2.readlines()
+	if pattern in lines :
+		lines.remove(pattern)
