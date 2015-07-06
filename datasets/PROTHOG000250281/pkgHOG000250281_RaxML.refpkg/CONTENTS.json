@@ -1,0 +1,25 @@
+{
+    "files": {
+        "aln_fasta": "fam_HOG000250281-fastaref_fromphylipref.fasta", 
+        "phylo_model": "phylo_model4SCcmV.json", 
+        "tree": "RAxML_bestTree.ARBRETEST1.1", 
+        "tree_stats": "RAxML_info.ARBRETEST1.1"
+    }, 
+    "rollback": null, 
+    "log": [
+        "Stripped refpkg (removed 0 files)", 
+        "Loaded initial files into empty refpkg"
+    ], 
+    "metadata": {
+        "create_date": "2015-05-21 17:38:01", 
+        "format_version": "1.1", 
+        "locus": "HOG000250281"
+    }, 
+    "rollforward": null, 
+    "md5": {
+        "aln_fasta": "6c5d08331416496c1047a0e4542845a9", 
+        "phylo_model": "75f3054a45b26b77a054a33e837403d0", 
+        "tree": "6bb8707aecd3023dc6d1abf7e8f1b36e", 
+        "tree_stats": "f571876fa099fe3cebe4604fe1f31742"
+    }
+}

@@ -1,0 +1,67 @@
+Found a total of 34 taxa in tree file fam_HOG000250281-phylipref_phyml_tree.txt
+
+
+This is RAxML version 8.1.20 released by Alexandros Stamatakis on April 18 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 369 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 41.80%
+
+RAxML likelihood-based placement algorithm
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+Partition: 0
+Alignment Patterns: 369
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: WAG
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+../../software/epa/standard-RAxML-master/raxmlHPC-SSE3 -f v -s fam_HOG000250281-combophylip.phylip -t fam_HOG000250281-phylipref_phyml_tree.txt -m PROTGAMMAWAG -n PHYLIP_PHYML 
+
+
+RAxML placement algorithm: You provided a reference tree with 34 taxa; alignmnet has 35 taxa
+1 query taxa will be placed using maximum likelihood
+
+RAxML Evolutionary Placement Algorithm
+
+Likelihood of reference tree: -11069.486182
+
+RAxML will place 1 Query Sequences into the 65 branches of the reference tree with 34 taxa
+
+Overall Classification time: 5.326950
+
+
+
+Labelled reference tree including branch labels and query sequences written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_labelledTree.PHYLIP_PHYML
+
+Labelled reference tree with branch labels (without query sequences) written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_originalLabelledTree.PHYLIP_PHYML
+
+Labelled reference tree with branch labels in portable pplacer/EPA format (without query sequences) written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_portableTree.PHYLIP_PHYML.jplace
+
+Classification result file written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_classification.PHYLIP_PHYML
+
+Classification result file using likelihood weights written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_classificationLikelihoodWeights.PHYLIP_PHYML
+
+Classification entropy result file using likelihood weights written to file: /home/anaisb/datasets/PROTHOG000250281/RAxML_entropy.PHYLIP_PHYML
+

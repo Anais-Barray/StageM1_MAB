@@ -1,0 +1,66 @@
+
+
+This is RAxML version 8.1.20 released by Alexandros Stamatakis on April 18 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 349 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 22.90%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 349
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: WAG
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+../../software/epa/standard-RAxML-master/raxmlHPC-SSE3 -m PROTGAMMAWAG -n ARBRETEST1.1 -s fam_HOG000250281-phylipref.phy -p 123456 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.087 0.044 0.039 0.057 0.019 0.037 0.058 0.083 0.024 0.048 0.086 0.062 0.020 0.038 0.046 0.070 0.061 0.014 0.035 0.071 
+
+Inference[0]: Time 189.791031 GAMMA-based likelihood -11055.532251, best rearrangement setting 5
+alpha[0]: 1.477032 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -11055.532251 tree written to file /home/anaisb/datasets/PROTHOG000250281/RAxML_result.ARBRETEST1.1
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -11055.532251 .... 
+
+Final GAMMA-based Score of best tree -11055.532251
+
+Program execution info written to /home/anaisb/datasets/PROTHOG000250281/RAxML_info.ARBRETEST1.1
+Best-scoring ML tree written to: /home/anaisb/datasets/PROTHOG000250281/RAxML_bestTree.ARBRETEST1.1
+
+Overall execution time: 251.934806 secs or 0.069982 hours or 0.002916 days
+

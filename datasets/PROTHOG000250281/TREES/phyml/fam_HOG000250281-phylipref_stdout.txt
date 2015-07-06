@@ -1,0 +1,125 @@
+
+
+
+
+
+
+                                 ..........................                                      
+ ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+                                 ..........................                                      
+
+                . Sequence filename:				 fam_hog000250281_phylipref_phy
+                . Data type:					 aa
+                . Alphabet size:				 20
+                . Sequence format:				 interleaved
+                . Number of data sets:				 1
+                . Nb of bootstrapped data sets:			 0
+                . Model name:					 LG
+                . Proportion of invariable sites:		 0.000000
+                . Number of subst. rate categs:			 4
+                . Gamma distribution parameter:			 estimated
+                . 'Middle' of each rate class:			 mean
+                . Amino acid equilibrium frequencies:		 model
+                . Optimise tree topology:			 yes
+                . Tree topology search:				 Best of NNIs and SPRs
+                . Starting tree:				 BioNJ
+                . Add random input tree:			 no
+                . Optimise branch lengths:			 yes
+                . Optimise substitution model parameters:	 yes
+                . Run ID:					 none
+                . Random seed:					 1432202181
+                . Subtree patterns aliasing:			 no
+                . Version:					 20120412
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+. 349 patterns found (out of a total of 362 sites). 
+
+. 44 sites without polymorphism (12.15%).
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. This analysis requires at least 26 Mo of memory space.
+
+. Refining the input tree...
+
+. Maximizing likelihood (using NNI moves)...
+
+. (   12 sec) [    -11056.0692] [Alpha              ][  1.244991]
+. (   12 sec) [    -11056.0692] [Topology           ][# nnis=  2]
+. (   14 sec) [    -11045.7937] [Topology           ][# nnis=  1]
+. (   16 sec) [    -11045.0963] [Topology           ][# nnis=  1]
+. (   17 sec) [    -11044.0241] [Topology           ][# nnis=  1]
+
+. Moving backward
+
+. (   19 sec) [    -11043.4192] [Topology           ][# nnis=  0]
+. (   21 sec) [    -11043.1381] [Topology           ][# nnis=  0]
+. (   22 sec) [    -11043.0804] [Topology           ]
+. (   23 sec) [    -11043.0662] [Alpha              ][  1.227438]
+. (   23 sec) [    -11043.0662] [Topology           ][# nnis=  0]
+. (   24 sec) [    -11043.0380] [Topology           ][# nnis=  0]
+. (   26 sec) [    -11043.0233] [Topology           ]
+. (   26 sec) [    -11043.0233] [Branch lengths     ]
+. (   27 sec) [    -11043.0107] [Alpha              ][  1.224923]
+. (   27 sec) [    -11043.0107] [Branch lengths     ]
+. (   28 sec) [    -11043.0059] [Alpha              ][  1.224923]
+. (   28 sec) [    -11043.0059] [Branch lengths     ]
+. (   29 sec) [    -11043.0038] [Alpha              ][  1.224923]
+. (   29 sec) [    -11043.0038] [Branch lengths     ]
+. (   30 sec) [    -11043.0027] [Alpha              ][  1.223698]
+. (   30 sec) [    -11043.0027] [Branch lengths     ]
+. (   31 sec) [    -11043.0022] [Alpha              ][  1.223698]
+. (   31 sec) [    -11043.0022] [Alpha              ][  1.223698]
+
+. Checking for NNIs, optimizing five branches...
+
+
+
+. Maximizing likelihood (using SPR moves)...
+
+. Refining the tree...
+
+. (   44 sec) [    -11204.2496] [ 2161] [depth=    2]
+. (   47 sec) [    -11200.1709] [ 2163] [depth=    1]
+. (   47 sec) [    -11200.1317] [ 2161] [depth=    1]
+. (   47 sec) [    -11198.6202] [ 2161] [depth=    1]
+. (   47 sec) [    -11190.7575] [ 2161] [depth=    1]
+. (   49 sec) [    -11182.7120] [ 2159] [depth=    1]
+. (   50 sec) [    -11180.3680] [ 2155] [depth=    1]
+. (   53 sec) [    -11168.1742] [ 2159] [depth=    1]
+. (   53 sec) [    -11160.8931] [ 2152] [depth=    2]
+. (   54 sec) [    -11158.0376] [ 2152] [depth=    1]
+. (   55 sec) [    -11152.7723] [Alpha              ][  1.252999]
+. (   55 sec) [    -11042.6038] [Alpha              ][  1.287931]
+. (   77 sec) [    -11037.2566] [Branch lengths     ]
+. (   78 sec) [    -11037.2566] [Topology           ][# nnis=  0]
+. (   79 sec) [    -11037.0437] [Topology           ][# nnis=  0]
+. (   81 sec) [    -11037.0047] [Topology           ]
+. (   81 sec) [    -11037.0047] [Branch lengths     ]
+. (   82 sec) [    -11036.9270] [Alpha              ][  1.251291]
+. (   82 sec) [    -11036.9270] [Branch lengths     ]
+. (   83 sec) [    -11036.9161] [Alpha              ][  1.249438]
+. (   83 sec) [    -11036.9161] [Branch lengths     ]
+. (   84 sec) [    -11036.9134] [Alpha              ][  1.249438]
+. (   84 sec) [    -11036.9134] [Branch lengths     ]
+. (   85 sec) [    -11036.9125] [Alpha              ][  1.249438]
+. (   85 sec) [    -11036.9125] [Alpha              ][  1.249438]
+
+. Checking for NNIs, optimizing five branches...
+
+
+. Log likelihood obtained after NNI moves : -11043.002244
+. Log likelihood obtained after SPR moves : -11036.912535
+
+. Log likelihood of the current tree: -11036.912535.
+
+. Printing the most likely tree in file 'fam_hog000250281_phylipref_phy_phyml_tree.txt'...
+
+. Time used 0h1m37s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

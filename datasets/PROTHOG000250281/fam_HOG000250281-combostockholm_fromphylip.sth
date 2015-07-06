@@ -1,0 +1,189 @@
+# STOCKHOLM 1.0
+
+#=GS PLAL2_1_PE     AC PLAL2_1_PE
+#=GS DICNV_1_PE     AC DICNV_1_PE
+#=GS CELJU_1_PE     AC CELJU_1_PE
+#=GS ALCBS_1_PE     AC ALCBS_1_PE
+#=GS HAHCH_1_PE     AC HAHCH_1_PE
+#=GS PSEA7_1_PE     AC PSEA7_1_PE
+#=GS PSAER1_1_P     AC PSAER1_1_P
+#=GS PSEAB_1_PE     AC PSEAB_1_PE
+#=GS PSEA8_1_PE     AC PSEA8_1_PE
+#=GS PSEMY_1_PE     AC PSEMY_1_PE
+#=GS AZOVD_1_PE     AC AZOVD_1_PE
+#=GS PSEU5_1_PE     AC PSEU5_1_PE
+#=GS PSSYR1_1_P     AC PSSYR1_1_P
+#=GS PSEU2_1_PE     AC PSEU2_1_PE
+#=GS PSE14_1_PE     AC PSE14_1_PE
+#=GS PSEE4_1_PE     AC PSEE4_1_PE
+#=GS PSEPW_1_PE     AC PSEPW_1_PE
+#=GS PSEP1_1_PE     AC PSEP1_1_PE
+#=GS PSEPK_1_PE     AC PSEPK_1_PE
+#=GS PSEPG_1_PE     AC PSEPG_1_PE
+#=GS PSEF5_1_PE     AC PSEF5_1_PE
+#=GS PSEFS_2_PE     AC PSEFS_2_PE
+#=GS PSEPF_1_PE     AC PSEPF_1_PE
+#=GS PAESJ_1_PE     AC PAESJ_1_PE
+#=GS SORC5_1_PE     AC SORC5_1_PE
+#=GS EXIS2_3_PE     AC EXIS2_3_PE
+#=GS HALO1_1_PE     AC HALO1_1_PE
+#=GS HERA2_1_PE     AC HERA2_1_PE
+#=GS DEIDV_2_PE     AC DEIDV_2_PE
+#=GS DEMAR1_1_P     AC DEMAR1_1_P
+#=GS METI4_1_PE     AC METI4_1_PE
+#=GS ISPAL1_2_P     AC ISPAL1_2_P
+#=GS ALIAD_1_PE     AC ALIAD_1_PE
+#=GS GEOS4_1_PE     AC GEOS4_1_PE
+
+#=GS PLAL2_1_PE     DE PLAL2_1_PE
+#=GS DICNV_1_PE     DE DICNV_1_PE
+#=GS CELJU_1_PE     DE CELJU_1_PE
+#=GS ALCBS_1_PE     DE ALCBS_1_PE
+#=GS HAHCH_1_PE     DE HAHCH_1_PE
+#=GS PSEA7_1_PE     DE PSEA7_1_PE
+#=GS PSAER1_1_P     DE PSAER1_1_P
+#=GS PSEAB_1_PE     DE PSEAB_1_PE
+#=GS PSEA8_1_PE     DE PSEA8_1_PE
+#=GS PSEMY_1_PE     DE PSEMY_1_PE
+#=GS AZOVD_1_PE     DE AZOVD_1_PE
+#=GS PSEU5_1_PE     DE PSEU5_1_PE
+#=GS PSSYR1_1_P     DE PSSYR1_1_P
+#=GS PSEU2_1_PE     DE PSEU2_1_PE
+#=GS PSE14_1_PE     DE PSE14_1_PE
+#=GS PSEE4_1_PE     DE PSEE4_1_PE
+#=GS PSEPW_1_PE     DE PSEPW_1_PE
+#=GS PSEP1_1_PE     DE PSEP1_1_PE
+#=GS PSEPK_1_PE     DE PSEPK_1_PE
+#=GS PSEPG_1_PE     DE PSEPG_1_PE
+#=GS PSEF5_1_PE     DE PSEF5_1_PE
+#=GS PSEFS_2_PE     DE PSEFS_2_PE
+#=GS PSEPF_1_PE     DE PSEPF_1_PE
+#=GS PAESJ_1_PE     DE PAESJ_1_PE
+#=GS SORC5_1_PE     DE SORC5_1_PE
+#=GS EXIS2_3_PE     DE EXIS2_3_PE
+#=GS HALO1_1_PE     DE HALO1_1_PE
+#=GS HERA2_1_PE     DE HERA2_1_PE
+#=GS DEIDV_2_PE     DE DEIDV_2_PE
+#=GS DEMAR1_1_P     DE DEMAR1_1_P
+#=GS METI4_1_PE     DE METI4_1_PE
+#=GS ISPAL1_2_P     DE ISPAL1_2_P
+#=GS ALIAD_1_PE     DE ALIAD_1_PE
+#=GS GEOS4_1_PE     DE GEOS4_1_PE
+
+PLAL2_1_PE             .................................................................................................................................-----MLPDQPLSWPLISFGAFKLGRNEGAKYPQGYDLPDDAAASRLLNELLDHGCQAIDTAPAYGLSEER
+DICNV_1_PE             .............................................................................................................................mntfFLPRRALGKTNIMLSAAGLGTVKFGRNQAMKYPNPYELPDDKTISNLLSLAWEMGINWLDTAPAYGSSESR
+CELJU_1_PE             .................................................................................................................................MLPRRRLGLTELEPGIISLGTVKFGRNQSVKYPDSFNLPSNEQLRELLAAARDLGVNLLDTAPAYGFSEER
+ALCBS_1_PE             .................................................................................................................................MSFMRPLGNTGLTVSALGLGTVKIGRDKGVKYPNSFTIPDDRAVTELLAQAQDLGINLIDTAPAYGHSEQR
+HAHCH_1_PE             .................................................................................................................................-MKYRQLGDTGIEVSLLGLGTVKLGRDQGVKYPTAFKIPDDQQALELIALAEDLGVNLIDTAPAYGSSESR
+PSEA7_1_PE             ...........................................................................................................................mikdtlHHLHRALGDTGLTVSPLGLGTVKFGRDQGVKYPSGFTIPDDREAADLLALARELGINLIDTAPAYGRSEER
+PSAER1_1_P             ...........................................................................................................................mirdtlHDLHRPLGDTGLAVSPLGLGTVKFGRDQGVKYPSGFTIPDDREAADLLALARDLGINLIDTAPAYGRSEER
+PSEAB_1_PE             ...........................................................................................................................mirdtlHDLHRPLGDTGLAVSPLGLGTVKFGRDQGVKYPSGFTIPDDREAADLLALARDLGINLIDTAPAYGRSEER
+PSEA8_1_PE             ...........................................................................................................................mirdtlHDLHRPLGDTGLAVSPLGLGTVKFGRDQGVKYPSGFTIPDDREAADLLALAHDLGINLIDTAPAYGRSEER
+PSEMY_1_PE             ............................................................................................................................mkstlHDLHRPLGSTGLMVSPLGLGTVKLGRDQGVKYPNGFTIPDDAQALALLRQARELGINLIDTAPAYGISEQR
+AZOVD_1_PE             ...........................................................................................................................mslatlHDLHRPLGGTGLSVSPLGLGTVKLGRDQGVKYPTGFRIPDDAEARRLLALAREQGINLIDTAPAYGVSEER
+PSEU5_1_PE             ............................................................................................................................mnatlHDLHRPLGKTGLRISPLGLGTVKLGRDQGVKYPNGFAIPDDDQARQLLTLARELGINLIDTAPAYGVSEER
+PSSYR1_1_P             ...........................................................................................................................mslktlHDLHRPFGSTGLSVSPLGLGTVKLGRDVGVKYPNGFKIPDDQQAQMLLRMARDMGINLIDTAPAYGTSEER
+PSEU2_1_PE             ...........................................................................................................................mslktlHDLHRPLGSTGLNVSPLGLGTVKLGRDQGVKYPSGFKIPDDQQAQMLLRMARDMGINLIDTAPAYGTSEER
+PSE14_1_PE             .............................................................................................................................mktlHDLHRPLGNSGLSVSPLGLGTVKLGRDQGVKYPSGFKIPDDQQAQMLLRMARDMGINLIDTAPAYGTSEER
+PSEE4_1_PE             ...........................................................................................................................mslptlHDHHRPLGSTGLRVSPLGLGTVKLGRDQGVKYPNGFTIPDDQTARLLLGQARELGINLLDTAPAYGRSEER
+PSEPW_1_PE             ...........................................................................................................................mtlptlHDFHRSLGSTGFKVSPLGLGTVKLGRDQGVKYPTGFTIPGDDEARLLLAQARELGINLIDTAPAYGCSEER
+PSEP1_1_PE             ...........................................................................................................................mslptlHAFHRPMGSTGLTVSPLGLGTVKLGRDQGVKYPTGFTIPGDEEARLLLAQARELGINLIDTAPAYGRSEER
+PSEPK_1_PE             ...........................................................................................................................mslptlHAFHRPLGSTGLKVSPLGLGTVKLGRDQGVKYPTGFTIPGDEDARLLLAQARELGINLIDTAPAYGHSEER
+PSEPG_1_PE             ...........................................................................................................................mtlptlHDFHRPLGSTGFKVSPLGLGTVKLGRDQGVKYPTGFTIPGDDEARLLLAQARELGINLIDTAPAYGRSEER
+PSEF5_1_PE             ...........................................................................................................................msqptlHDLHRPLGSTGLLVSPLGLGTVKLGRDQGVKYPNGFQIPDDQEARMLLKLTRDLGINLIDTAPAYGRSEER
+PSEFS_2_PE             ...........................................................................................................................mslptlHDLHRPLGSTGLLVSPLGLGTVKLGRDQGVKYPSGFQIPGDDEARMLLRQARELGINLIDTAPAYGMSEER
+PSEPF_1_PE             ...........................................................................................................................mslptlHDLHRPLGSTGLLVSPLGLGTVKLGRDQGVKYPNGFQIPDDDAARMLLKQARELGINLIDTAPAYGRSEER
+PAESJ_1_PE             .................................................................................................................................-MDKAILGRTGLQVTRLSYGAMEI---RGPRVWNGRPV-EDADAGLILNTVLDAGINLIDTSYDYGRSEEL
+SORC5_1_PE             ...............................................................................................................................mtDLPTRLLGRTGVRVTTLGFGAMELRGA-----PRGPEL-SDQEAERILNDVLDAGINFIDTSIDYGRSEER
+EXIS2_3_PE             .................................................................................................................................-MELRSFGNTDIQVSPLGFGAGHIGSDD----------LSDQEASYILHQALDTGIRLFDTARGYGLSEKR
+HALO1_1_PE             ..............................................................................................................................mhdSLPRRSFGTTGLEVSALGLGAGQLGDTQ----------LSDREAERLLDEALALGINLVDTARSYGPSEER
+HERA2_1_PE             ...............................................................................................................................mnFPLLREFGSTGLQVSALGFGAGHIGGNE----------LTEAEAAKLLHGLLDLGINLIDTARGYGLSEER
+DEIDV_2_PE             ...........................................................................................................................mvthnaAMEQRQFGTTGLKVSVLGLGAGQVGAES----------LSESAAGTLLNRALDGGITLVDTARGYGLSEER
+DEMAR1_1_P             .................................................................................................................................-MERRTFGTTGLTVSVLGLGAGQVGADD----------VSDADAERLLHRALDLGVTLIDTARGYGRSEER
+METI4_1_PE             .................................................................................................................................-MEYTILGKTGFRVSRLGIGTAEIG----------FQHMSVASVSELLLFALDHGINVIDTARGYGSAEEL
+ISPAL1_2_P             .................................................................................................................................-MEKRTFGKTGLEVSVLGYGGAPIG----------FLETEQAQVGRILNLMLDRGVNLIDTAAMYRGSEEL
+ALIAD_1_PE             .................................................................................................................................-MEYREFGRTGMRVSALGFGGSEIRGS------------DVATVERLLASALDAGLNVIDTGECYGDSEEL
+GEOS4_1_PE             .................................................................................................................................-MERRAFGRTDMQVSVLGFGGAEIGKS------------DQKTVDRLLHSAIDAGLNMIDTAECYGHSEEL
+STRRD_1_PE4310         mqivrdelyrdavrvtgdgharprltaavirdeeeqagyvrelldiydeegadaafvdtfarrdlptsseperdfdtagfgivkilergrtgtaypglpwepkaafhalaeygrasgacdrredddvtl--PTAKLGRTGLQTSRLGYGAMEMRGPQ----AWGKPI-SDDQARTVLNTVLDSGMNLIDTSPDYGDAEEH
+#=GR STRRD_1_PE4310 PP *******************************************************************************************************************************86..6789******************9887....446666.99******************************
+#=GC PP_cons           ...................................................................................................................................6789******************9887....446666.99******************************
+#=GC RF                .................................................................................................................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+PLAL2_1_PE             IGRHLAHR.RKEFLLSTKVGESFA......A..GISNYD.....FSQQAVERSIEQSLRRLQTDALDLVLIHSPGNDEELLTQTPVVETLCRFREQGDVLRIGLSGKTPAGAKLALGWADALMVEFHQQ.--NVSHLDVMREAHEAGLIVLVKKGLASGQ.........--LDP...---..----.....-------..
+DICNV_1_PE             LGQLMPSK.--DWIISSKVGEQFI......Q..GKSYFN.....FTKKETQISLEKSLQRLKRDYLDLVFIHSNGDDERILLHSDVLETLQQAKAKGLIRAIGFSGKTLNGAQIALQYCDALMISYSLT.--DTDLAPAIKQAAQCDVGVVIKKGFGSGH.........LF---...AQY..----.....-------..
+CELJU_1_PE             LGDLLRGE.RQSWIISTKVGEEFEpdkfaqE..GRSWFD.....FSARHTRASIERSMRRLRTDYLDIVLIHSDGNDLDILEQSPVIDSLCRLQQEGWIRAIGISSKTAEGGLKAAELCDLVMVTYNPQ.--NPHEEAVIDRCRDLGKGVLLKKVLASGH.........ICHDApasGKD..----.....-------..
+ALCBS_1_PE             LGQLM-SQ.RQDWVIVTKVGEEFD......NnsGDSHFD.....FSPEHVRFSVERSLQRLNTDYLDCVLIHSDGNDLAIIEK-GTLDALNDLKKAGLIRATGMSTKTVAGGIASLNHADMAMVTYNLH.--QQDEAPVIEHAAARQKGILIKKAFASGH.........LNDTL...-DD..----.....-------..
+HAHCH_1_PE             LGGLLQGR.RQRWVICSKVGEEFV......D..GQSYFN.....FTPEHTRMSVERSLQRLRTDYIDIVLIHSDGDDMAILQKEGTLQALAELKAKGMIRAIGLSGKTVEGAIAALQQGDVAMVTYNLE.--HQEEKPVLDYAQAHRKGVLIKKALASGH.........ICVGP...HED..----.....-------..
+PSEA7_1_PE             LGPLLRGQ.REHWVIVSKVGEEFV......D..GRSHFD.....FSAAHTRRSVERSLKRLETDHIELVLVHSDGNDLDILENSEVYPTLAALKREGLIGAYGLSGKTVEGGLEALREGDCAMVTYNLA.--ERAELPVIDYAAAHAKGILVKKALASGH.........ACLDA...GQD..----.....-------..
+PSAER1_1_P             LGPLLRGQ.REHWVIVSKVGEEFV......D..GQSVFD.....FSAAHTRRSVERSLKRLETDRIELVLVHSDGNDLDILENSEVYPTLAALKREGLIGAYGLSGKTVEGGLRALREGDCAMVTYNLN.--ERAERPVIEYAAAHAKGILVKKALASGH.........ACLGA...GQD..----.....-------..
+PSEAB_1_PE             LGPLLRGQ.REHWVIVSKVGEEFV......D..GQSVFD.....FSATHTRRSVERSLKRLETERIELVLVHSDGNDLDILENSEVYPTLAALKREGLIGAYGLSGKTVEGGLRALREGDCAMVTYNLN.--ERAERPVIEYAAAHAKGILVKKALASGH.........ACLGA...GQD..----.....-------..
+PSEA8_1_PE             LGPLLRGQ.REHWVIVSKVGEEFV......D..GQSVFD.....FSAAHTRRSVERSLKRLETERIELVLVHSDGNDLDILENSEVYPTLAALKREGLIGAYGLSGKTVEGGLRALREGDCAMVTYNLN.--ERAERPVIEYAAAHAKGILVKKALASGH.........ACLGA...GQD..----.....-------..
+PSEMY_1_PE             LGPLLRGQ.RDEWVIVSKTGEEFE......G..GQSHFD.....FSPAHTRLSVERSLKRLQTDRIDLLLVHSDGNDLSVLRDTGVYETLASLKREGKILAYGLSGKTVEGGLLALELGDCAMVTYNLS.--EQGEKPVLDYAASHAKGILIKKALASGH.........ACLAE...GVD..----.....-------..
+AZOVD_1_PE             LGPLLRGQ.RDAWVIVSKVGEEFE......N..GRSRFD.....FSPAHTRFSVERSLKRLETDRIDLILVHSDGNDVAILRESGVYQTLAELKREGKIRAFGLSGKTVEGGLLALQQGDCAMITLNLN.--DQRERPVADYAAIHGKGILVKKALASGH.........VCLDG...GTD..----.....-------..
+PSEU5_1_PE             LGPLLAGQ.REDWVIVSKVGEEFE......N..GQSRFD.....FSAAHTRFSVERSLQRLRTDRIELVLVHSDGNDLDILQHTEVYQTLAELKREGKILAFGLSGKTVDGGLLALQQGDCAMVTYNLN.--EQAERPVLDYAAAHGKGILIKKALASGH.........ACLKP...GDD..----.....-------..
+PSSYR1_1_P             LGPLLRGQ.RQEWVIVSKVGEEFD......N..GQSSHD.....FSAAHTRKSVERSLKRLETDFLDLVLVHSDGNDLAILNDTEVYQTLAELKREGKIRGFGFSGKTVEGGLLALRDGDCAMVTYNLD.--EQGEKPVVDYAAEHGKGILVKKALASGH.........ACLTP...GID..----.....-------..
+PSEU2_1_PE             LGPLLRGQ.RQDWVIVSKVGEEFV......N..GESSHD.....FSAAHTRTSVERSLKRLETDFLDLVLVHSDGNDLAILNDTEVYQTLADLKREGKIRGFGFSGKTVEGGLLALREGDCAMVTYNLN.--EQDEKPVLDYAQAHGKGILVKKALASGH.........VCLTP...GTD..----.....-------..
+PSE14_1_PE             LGPLLRGQ.RQDWVIVSKVGEEFD......N..GQSSHD.....FSAEHTRKSVERSLKRLETDFLDLVLVHSDGNDLAILNEAEVYQTLADLKREGKIRGFGFSGKTVEGGLLALREGDCAMVTYNLN.--EQGEKPVLDYAAAHGKGILVKKALASGH.........VCLTP...GMD..----.....-------..
+PSEE4_1_PE             LGPLLRGQ.RDKWVIVSKVGEEFD......N..GQSHFD.....FSAAHTRRSVERSLKRLETDRIELVLVHSDGNDLAILEHEAVYETLATLKQEGKILGYGFSGKTVAGGLKALEQGDCAMVTYNLN.--EQAERPVLDYAAEHGKAILVKKALASGH.........ICLAP...GVD..----.....-------..
+PSEPW_1_PE             LGPLLRGQ.RDEWVIVSKVGEEFE......N..GQSRFD.....FSAAHTRLSVERSLRRLETDRIELVLVHSDGNDLEILEQQEVYQTLAALKQEGKILGYGLSGKTVAGGLKALEQGDCAMVTFNLN.--EQAERPVLDYAAEHGKAILVKKALASGH.........VCLAP...GVD..----.....-------..
+PSEP1_1_PE             LGPLLRGQ.RDEWVIVSKVGEEFE......E..GLSHFD.....FSAAHTRRSVERSLRRLETDRIELVLVHSDGNDLAILEQQEVYQTLAELKQEGKILGFGLSGKTVAGGLKALEQGDCAMVTYNLN.--EQAERPVLDYAAEHGKAILVKKALASGH.........ICLAP...GVD..----.....-------..
+PSEPK_1_PE             LGPLLRGQ.RDEWVIVSKVGEEFE......E..GLSHFD.....FSAAHTRRSVERSLRRLETDRIELVLVHSDGNDLAILEQQEVYQTLAELKQEGKILGFGLSGKTVAGGLKALEQGDCAMVTYNLN.--EQAERPVLDYAAEHGKAILVKKALASGH.........ICLAP...GVD..----.....-------..
+PSEPG_1_PE             LGPLLRGQ.RDEWVIVSKVGEEFD......Q..GQSHFD.....FSAAHTRRSVERSLRRLETDRIELVLVHSDGNDLAILEQQEVYQTLAALKQEGKILGFGLSGKTVAGGLKALEQGDCAMVTYNLN.--EQAERPVLDYAAEHGKAILVKKALASGH.........ICLAP...GVD..----.....-------..
+PSEF5_1_PE             LGPLLRGQ.RQEWVIVSKVGEEFA......D..GLSRHD.....FSATHTRMSVERSLQRLETDFIDLVLVHSDGNDLAILEQCEVYQALAQLKQEGKIRGYGFSGKTVDGGLKALEQGDCAMVTYNLN.--EQAERAVIDYATAHHKGILVKKALASGH.........VCLSP...GID..----.....-------..
+PSEFS_2_PE             LGPLLRDQ.RKDWVIVSKVGEEFE......N..GASSHD.....FSAAHTRMSIERSLKRLETDFIDLVLVHSDGNDLHILNDCEVYDTLAALKQEGKIRGFGFSGKTVEGGVKALEQGDCAMVTYNLN.--EQAEKAVIEYAAAHGKGILVKKALASGH.........VCLEP...GMD..----.....-------..
+PSEPF_1_PE             LGPLLRGQ.RQDWVIVSKVGEEFV......D..GQSTHD.....FSAAHTRMSVERSLQRLETDFIDLVLVHSDGNDLAILNDSEVYATLAALKAEGKIRGFGFSGKTVDGGLKALEQGDCAMVTYNLN.--EQNEKAVIDYAAAHGKAILVKKALASGH.........VCLSP...GVD..----.....-------..
+PAESJ_1_PE             IGRFISHR.RDEFILATKCGCCVT......-..NRGEHDetshiWTRDNLLHNIDTSLKRMKTDYVDVLQLH--GPTVQQAEEGALVDALKEIQASGKARYIGVSSYL-PNLPAFVDWGTFDTFQLPYS.ALEREHEDWVTKAADTGAGIIVRGGVGQGE.........PGIGR...GSE..ERWSaweqaKLDELLEhg
+SORC5_1_PE             IGRFLSHR.RHEYFLASKCGCVVG......G..AQGEHV.....HTAQNIRHGVENSLRLLKTDHLDLVQFHRSLTRQE-LEQDGALEEALKLKSEGKVRFLGVSG-TLPNLVEQIELGVFDAFQIPYS.ALQREHEEVIGKAAQAGAGTIIRGGVARGAptd..wqrtNYMLP...GTTmqDRWErarldELLDGLS..
+EXIS2_3_PE             LGQFLKQR.RHDVVLSTKVGYDVP......-..--RTED.....WTFQAVAGGIDQALLTMQTDFIDIVHLHS--CSKEILAQDDVIEALERAKQAGKVRLIAYSGDR-EDLDYAITTGRFDSFQTSVNlYDQRALMDSVPLIHQQQKGIIAKRPIANAPw.......rFASRP..vGQYvePYWE.....RAQQLDFpl
+HALO1_1_PE             IGRFLRARhRDAIVLSTKLGYGIP......-..GVAD--.....WTPECIARGVDAARARLGVDTVDIVHLHS--CPREVLESGGVVDALADAVRAGKVRVAAYSGDN-EAAEYAVASGHFGSVQTSLSvCDQRAGGALLDAARERGMGVIAKRPVANAPw.......rFATCP..sGNEaeFYWH.....RWQAMKIdt
+HERA2_1_PE             IGRHLQQR.RHEFVLSTKIGYGIE......-..GYDD--.....WTSPIITAGIDAALQRMHTDYLDIVHFHS--CPVETLRAGEVIEALERAVQAGKVRVAAYSGDN-APLAWAVQSGHFGAIECSVNlADQRVISQVLPQTQQRQIGVIAKRPVANVAw.......rFAQRP..vGDYaeVYWE.....RLQAMQLdf
+DEIDV_2_PE             IGRHLAHR.RNDFILSSKGGYGVE......-..GVED--.....WTPLVIRRGIEQALQRMRVDWIDIFHLHS--CPLDVLKQEDLLGALDDAREAGHIRVAAYSGEN-EALAWAVDSGRFGSVETSVNlADQWSRHRVLPHAIERGLGVIAKRPIANAAw.......rFTQRP..vGEYaeIYWE.....RLRTMDLea
+DEMAR1_1_P             IGRFLSGR.RDEFVLSTKGGYGVD......-..GVP--D.....WTPECLRLGIERALRTLRTDVIDVFHLHS--CPLDTLQRDDLLGALDAARDAGQVRVVAYSGEN-DALAWAVQSGRFGSVETSVNfADQWSARHVLPDAAARGLGVIAKRPLANAPw.......rHAERP..vGQYveTYWV.....RAQALGLdp
+METI4_1_PE             IGKTLGHR.RRDFIIVSKCGYGEV......E..GMEFLP....pWSKKKISVSVDQSLKKLRTDHIDVMLLHT--CEKDVLQKGEALEALLLAKEKGKIRFIGYSGDN-EDSLYALSLPPIDVLECSFNvTDQYNLEKVLPLAKEKNVGVLVKRPLANCPw......kdPLTLPsyaREYgeEYRRrfkqmGLKASDLgi
+ISPAL1_2_P             IGATVGHR.RDEYVLVSKCGQAYP......DlpGAA---.....WSETVILATVDRALKRLRTDHLDVMLLHS--CGLDILQNGEALGALVKARDAGKIRFAGYSGDN-DEAVFACGLEDVAVLQTSINlVDQANIKAALPAAIAANVGVMAKRPIANAAw......kpLETQRglySSYarLYTErfqamGLNPADLgf
+ALIAD_1_PE             IGRAVGHR.RSEYFLFTKCGHRS-......-..GLETPD.....WAPETIRASIDRSLKRLRTDYVDLMQLHS--CSVEVLKEGSVIEELQKAKEAGKIRFLGYSGDN-EAAKYAVELGVFDSLQTSVNvADQSAIDEVIPLAAARGMGVIAKRPVANVAw.......rYQEKP..dVDYyvEYWR.....RLRELNFpf
+GEOS4_1_PE             IGKALSGR.RDDYYLFTKCGHAS-......-..GLDYPD.....WDPVMLEQSIDRSLKRLQVDHVDVIHLHS--CSEEILRQGAVIEVLKKAKEQGKTRYIGYSGDS-TDALYALQTGAFDSFETSLNiADQEAIDLTIPLAMKQGIGVIAKRPVANVAw......khETLSE...RDYayPYWV.....RLGELNYdf
+STRRD_1_PE4310         IGRWISHR.RDEFVLVSKCGCPLA......A.dGDPR-TfplhaYTRANVRACVEQSLRRMRTDHLDVLMVHM-SPSVAVMQAEDTIAEMQALQDEGAIRFTGMSGNL-PNLPEHIAIGVFDVFLLPYS.ALDRSHEELISAAAAAGAGTIARGSVARPLaappeampePLRRP...LAD..-HHA.....RLAAAGLdd
+#=GR STRRD_1_PE4310 PP ********.************998......4.24432.123555****************************8.99******************************66.********************.************************99997645555433323333...222...333.....444443355
+#=GC PP_cons           ********.************998......4..4432.1.....****************************8.99******************************66.********************.************************999976.........23333...222...333.....4444433..
+#=GC RF                xxxxxxxx.xxxxxxxxxxxxxxx......x..xxxxxx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.........xxxxx...xxx..xxxx.....xxxxxxx..
+
+PLAL2_1_PE             ........--QLAVEFVAREKSVSSLVLGTLKLENFISAQRWASH----------SRAT---....----.................
+DICNV_1_PE             ........SVTDLSDFLFQQP-ITAVITGTLSAQHLRENCHALTL----------AANRYPL....----.................
+CELJU_1_PE             ........ALEQALAFALGKPGVTSAVIGTINPAHLRANCLAAMA----------VLHD---....----.................
+ALCBS_1_PE             ........PVQESLDQILGIAGVSSIIAGTINPAHLQENVAKARQ----------ACKMAAQ....----.................
+HAHCH_1_PE             ........PLRKSMEFVFAHPGVSSAIIGTINPEHFKENVCALPA-----------------....----.................
+PSEA7_1_PE             ........PVRASFELVFGQPGVGAAIVGTINPLHLAHNVAMAAQ----------ALKKT--....----.................
+PSAER1_1_P             ........PVRASFELVFDQPGVAAAIVGTINPLHLAHNVAMAAQ----------ALKKA--....----.................
+PSEAB_1_PE             ........PVRASFELVFDQPGVAAAIVGTINPLHLAHNVAMAAQ----------ALKKA--....----.................
+PSEA8_1_PE             ........PVRTSFELVFDQPGVAAAIVGTINPLHLAHNVAMAAQ----------ALKKA--....----.................
+PSEMY_1_PE             ........PVRASFELIFDHPGVSSAIVGTINPAHLAANVATAAA----------VLQDIC-....----.................
+AZOVD_1_PE             ........PVRASFELLFQHPGVASAIIGTINPLHLSDNISAAAA----------VIRQERQ....----.................
+PSEU5_1_PE             ........PVRRSFELLFGHPGVSGAIIGTINPQHLTSNVATAAA----------VLTGD--....----.................
+PSSYR1_1_P             ........PVQASFQLLFEHPGVASAIVGTINPLHLAHNVATAAA----------VICRQA-....----.................
+PSEU2_1_PE             ........PVHASFQLLFEHPAVASAIVGTINPLHLAHNVATAAA----------VICRQA-....----.................
+PSE14_1_PE             ........PVQASFQLLFEHPAVASAIVGTINPLHLAHNVATAAA----------VICRQA-....----.................
+PSEE4_1_PE             ........PVQASFELLFAHPGVNSAIVGTINPVHLAHNVATVAR----------ILGRP--....----.................
+PSEPW_1_PE             ........PVHASFELLFAHPGVSSAIVGTINPLHLAHNVATVAR----------ILGQH--....----.................
+PSEP1_1_PE             ........PVQASFELLFAHPGVSSAIVGTINPLHLAHNVATVAR----------ILGQH--....----.................
+PSEPK_1_PE             ........PVQASFELLFAHPGVSSAIVGTINPLHLAHNVATVAR----------ILGQH--....----.................
+PSEPG_1_PE             ........PVQASFELLFAHPGVSSAIVGTINPLHLAHNVATVAR----------ILGQH--....----.................
+PSEF5_1_PE             ........PVRASFELLFDRPGVASAIVGTINPLHLAHNVSTVAQ----------VLGKN--....----.................
+PSEFS_2_PE             ........PIRASFMLLFAQTGVASAIVGTINPLHLAHNVATAAQ----------VIRQL--....----.................
+PSEPF_1_PE             ........PVRASFELLFAQPGVASAIVGTINPLHLAHNVATVAQ----------VLRGH--....----.................
+PAESJ_1_PE             ......eqRTGFLLRFTLSHPSMTTTIVGTKNPSHLAENLRYAELGPLPSDVYEEAKKRLDAigrtAITK.................
+SORC5_1_PE             ........RIEFTLRFTLSHPGLSTTIVGTRNPKHLRDNLEFARKGPLPREVVAEAKRRLSQagstPEAVpasgvraagaaqataqa
+EXIS2_3_PE             e....easWLETALRFTVFEPGVTSAIIGTANPEHLVQNIRLLEKGALPAERVADLKRRFQE....QDENwlqqt............
+HALO1_1_PE             q....glaWQEIAVRFAVWCPGVHSAIVGTANPGHLRENLELAARGPLPDDLYRALRDAFAQ....HAGEwagri............
+HERA2_1_PE             d....perLLDIALRFTAYTPGVHSCIVGSRSLEHMQHNLALLQQGPLEPQLYAYLSSQFQT....NDQGwvgqi............
+DEIDV_2_PE             vrdqagleWTGLALRFSAYAPGVHSVIVGTASLGNLDQNLRLVEQGPLPLDVLTWIESAWSQ....HGQEwpgev............
+DEMAR1_1_P             r....alpWDEFALRFSAFQPGVSSVIAGTARVENLERNARALAAGPLPADLLAEVDAAWAR....EGQGwggev............
+METI4_1_PE             e....eeaWAEFFLRFVLSFPEIHVVLVGVSKLEHLVENLQTLKKGALPQVVVHNVREAFKKaqssSNELwvgqg............
+ISPAL1_2_P             eg.dparvWPEIALRFTLSQPGVTTAIVGSTNPANVEANIEAASKGPLDAETLTAIRNAFARaeaaSGEVwtgqt............
+ALIAD_1_PE             te.rplseAVGVALRFTLSVPGVTTAIVGTQNPGRWQENARYVDEGPLPKEEFDAIREAWRR...vAQPDwvgqt............
+GEOS4_1_PE             ls..dvqqGVETALRFTLSTPGIATAIVGTANPDRWGQNAALLEKGKLPEEVYESIRNRWRE...vAGADwvgkv............
+STRRD_1_PE4310         la..dgasTMELLLRFILSHQDLHSVIVGSAQVAHVQANVAAVRKGPLPAEVYGALRERL--....----gag..............
+#=GR STRRD_1_PE4310 PP 55..5666**********************************************999886..........789..............
+#=GC PP_cons           ........**********************************************999886...........................
+#=GC RF                ........xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxx.................
+//
