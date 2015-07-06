@@ -4,10 +4,6 @@
     
 	<command interpreter="python">
 		./convbioseq_wrapper.py $input $input_format $output_format $output
-
-<!--
-		./convbioseq_wrapper.py $input $input_format $output_format $output1 $output2 $output3
--->
 	</command>
 	
 	<inputs>
@@ -25,21 +21,7 @@
 	</inputs>
 	
 	<outputs>
-		
 		<data name="output" format="txt" label="${input.name} in ${output_format}"/>
-
-<!--
-		<data name="output1" format="phylip" label="${input.name}.phylip">
-			<filter>output_format=="phylip"</filter>
-		</data>
-		<data name="output2" format="stockholm" label="${input.name}.stockholm">
-			<filter>output_format=="stockholm"</filter>
-		</data>
-		<data name="output3" format="fasta" label="${input.name}.fasta">
-			<filter>output_format=="fasta"</filter>
-		</data>
-		
--->
 	</outputs>
 
 	<help>
