@@ -1,0 +1,61 @@
+
+
+IMPORTANT WARNING: Sequences SFIA and SHAI are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/sate7/metagen/SATeOnS/finalresults/M3_R1.fasta.phylip.reduced
+
+
+You are using RAxML version 7.2.4 released by Alexandros Stamatakis in November 2009
+
+Alignment has 1562 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 45.81%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specifed trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1562
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+condor_exec.exe -m GTRGAMMA -g /projects/sate7/metagen/SATeOnS/finalresults/M3_R1.tre -s /projects/sate7/metagen/SATeOnS/finalresults/M3_R1.fasta.phylip -n M3_R1 
+
+
+Inference[0]: Time 393.727552 GAMMA-based likelihood -448894.921428, best rearrangement setting 5, alpha[0]: 0.897181 rates[0] ac ag at cg ct gt: 1.233745 3.351453 0.495201 1.147317 4.164416 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -448892.324031 tree written to file /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_result.M3_R1
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -448892.324031 .... 
+
+Final GAMMA-based Score of best tree -448892.324031
+
+Program execution info written to /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_info.M3_R1
+Best-scoring ML tree written to: /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_bestTree.M3_R1
+
+Overall execution time: 502.016460 secs or 0.139449 hours or 0.005810 days
+

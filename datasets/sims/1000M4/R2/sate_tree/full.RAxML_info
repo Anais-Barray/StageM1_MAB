@@ -1,0 +1,70 @@
+
+
+IMPORTANT WARNING: Sequences SIGE and SCCG are exactly identical
+
+
+IMPORTANT WARNING: Sequences SECJ and SEAE are exactly identical
+
+
+IMPORTANT WARNING: Sequences SHHD and SIFI are exactly identical
+
+
+IMPORTANT WARNING: Sequences SGIJ and SCEA are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file /projects/sate7/metagen/SATeOnS/finalresults/M4_R2.fasta.phylip.reduced
+
+
+You are using RAxML version 7.2.4 released by Alexandros Stamatakis in November 2009
+
+Alignment has 1443 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 43.34%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 user-specifed trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1443
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+condor_exec.exe -m GTRGAMMA -g /projects/sate7/metagen/SATeOnS/finalresults/M4_R2.tre -s /projects/sate7/metagen/SATeOnS/finalresults/M4_R2.fasta.phylip -n M4_R2 
+
+
+Inference[0]: Time 434.415515 GAMMA-based likelihood -237811.119380, best rearrangement setting 5, alpha[0]: 0.892261 rates[0] ac ag at cg ct gt: 1.178467 3.503063 0.443503 1.236767 4.177287 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -237809.434902 tree written to file /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_result.M4_R2
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -237809.434902 .... 
+
+Final GAMMA-based Score of best tree -237809.434902
+
+Program execution info written to /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_info.M4_R2
+Best-scoring ML tree written to: /v/filer4b/v25q009/metagen/SATeOnS/finalresults/raxmlfinalgammarun/RAxML_bestTree.M4_R2
+
+Overall execution time: 531.093768 secs or 0.147526 hours or 0.006147 days
+
