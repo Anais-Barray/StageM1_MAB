@@ -1,0 +1,50 @@
+<tool id="convbioseq_id" name="Convbioseq" version="1.4.0">
+
+    <description>Converts sequence file format into another format</description>
+    
+	<command interpreter="python">
+		./convbioseq_wrapper.py $input $input_format $output_format $output
+	</command>
+	
+	<inputs>
+		<param name="input"	type="data" label="Sequence file to convert"/>
+		<param name="input_format" type="select" label="Input file format" help="Select format of the file you want to convert">
+			<option value="phylip">		phylip		</option>
+			<option value="stockholm">	stockholm	</option>
+			<option value="fasta">		fasta		</option>
+		</param>
+		<param name="output_format" type="select" label="Output file format" help="Select format you want to convert your file into">
+			<option value="phylip">		phylip		</option>
+			<option value="stockholm">	stockholm	</option>
+			<option value="fasta">		fasta		</option>
+		</param>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="txt" label="${input.name} in ${output_format}"/>
+	</outputs>
+
+	<help>
+		
+		
+===========
+ Overview:
+===========
+
+Converts a sequence file format into a selected format.
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the convbioseq documentation : https://pypi.python.org/pypi/bioscripts.convert/0.4
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
+	</help>
+
+</tool>
+

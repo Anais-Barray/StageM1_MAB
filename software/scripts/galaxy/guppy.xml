@@ -1,0 +1,42 @@
+<tool id="guppy_id" name="Guppy" version="1.0.0">
+	
+    <description>Analyses phylogenetic placement files</description>
+    
+	<command interpreter="python">
+		./guppy_wrapper.py $input $output $outputxml
+	</command>
+	
+	<inputs>
+		<param name="input" type="data" format="json" label="Phylogenetic placement file in jplace/json format" help="Output file from pplacer, EPA or SEPP tools"/>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="txt" label="Guppy_tog_of_${input.name}"/>
+		<data name="outputxml" format="xml" label="Guppy_tog_XML_of_${input.name}"/>
+	</outputs>
+
+	<help>
+
+===========
+ Overview:
+===========
+
+Guppy is a tool for analyzing JSON/JPLACE phylogenetic placement files, after a run with pplacer / EPA / SEPP.
+
+Here, it offers to make a XML tree viewable with Archaeopteryx, in order to visualize the placement of all the reads on the backbone tree.
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the HMMER documentation : http://matsen.github.io/pplacer/generated_rst/guppy.html
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
+	</help>
+
+</tool>
+

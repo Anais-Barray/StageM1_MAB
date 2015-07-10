@@ -1,0 +1,46 @@
+<tool id="pplacer_id" name="Pplacer" version="1.2.4">
+	
+    <description>Makes a placement using pplacer maximum likelihood algorithm</description>
+    
+	<command interpreter="python">
+		./pplacer_wrapper.py $inputtree $inputstat $inputcombo $output
+	</command>
+	
+	<inputs>
+		<param name="inputtree" type="data" format="txt" label="Reference tree" help="Tree made with RAxML or PhyMl using the reference sequences"/>
+		<param name="inputstat" type="data" format="txt" label="Tree info file" help="This file is generated when making a tree with RAxML or PhyMl. Make sure to check it first with the tool Info File Check"/>
+		<param name="inputcombo" type="data" format="stockholm" label="Aligned reads to reference MSA (HMM) in stockholm format" help="You can convert your file format with the Convbioseq tool"/>
+	</inputs>
+	
+	<outputs>
+		<data name="output" format="json" label="Pplacer_results.jplace"/>
+	</outputs>
+
+	<help>
+
+
+===========
+ Overview:
+===========
+		
+Placement of reads on a reference tree using the pplacer algorithm.
+
+Reads must be prealigned to a reference alignment with HMM, and the file in stockholm format. 
+
+Trees can be done either with RAxML or PhyMl, make sure to get the info/stat file as well. Pplacer needs it to know the evolutionary model for placement. 
+
+----
+
+.. class:: infomark
+
+For further informations, please visite the pplacer documentation : http://matsen.github.io/pplacer/
+
+----
+
+**Program encapsulated in Galaxy by Anais Barray.** 	
+Contact : anais.barray@gmail.com
+
+	</help>
+
+</tool>
+
