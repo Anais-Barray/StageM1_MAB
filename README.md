@@ -1,4 +1,5 @@
-Anais Barray's github repository. You can access the scripts and datasets I use during my computer science Master formation.
+Anais Barray's Bioinformatics Master 1 internship github repository. You can access the scripts and datasets I used for the studies I conducted.
+
 - In the software file you will find phylogenetic placement softwares or the ones needed to make a metagenomic study using phylogenetic placement methods.
 - The script file (found in the software file) contains :
     * the Galaxy scripts (xml and wrappers) for a use of the phylogenetic placement tools on the galaxy platform (tools        that you should install properly beforehand).
