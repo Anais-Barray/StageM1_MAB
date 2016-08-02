@@ -1,4 +1,4 @@
-Anais Barray's Bioinformatics Master 1 internship github repository. You can access the scripts and datasets I used for the studies I conducted.
+Anais Barray's Bioinformatics Master 1 internship github repository. You can access the scripts and datasets I used for the studies I conducted in metagenomics and phylogenetics.
 
 - In the software file you will find phylogenetic placement softwares or the ones needed to make a metagenomic study using phylogenetic placement methods.
 - The script file (found in the software file) contains :
